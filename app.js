@@ -6,7 +6,7 @@ axios('https://fakestoreapi.com/products')
 .then(function(res){
   console.log(res.data);
     res.data.map(function(items){
-      div.innerHTML +=`<div class="card w-[400px] h-[600px] p-[5px]  bg-base-100 shadow-xl">
+      div.innerHTML +=`<div class="card w-[400px] h-[600px] bg-white p-[5px]  shadow-xl">
       <figure><img class="h-[300px]" src="${items.image}" alt="Shoes" /></figure>
       <div class="card-body">
         <h1 class="card-title text-[#588157] text-xl">Title : ${items.title} </h1>
