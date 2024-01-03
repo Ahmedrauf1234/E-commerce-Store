@@ -1,0 +1,19 @@
+@media(max-width:600px){
+    .logo-text{
+        font-size: 15px;
+        
+    }
+    /* .btn-text{
+        width: 110px;
+    } */
+}
+@media(max-width:490px){
+    .logo-text{
+        font-size: 13px !important;
+    }
+}
+@media(max-width:400px){
+    .logo-text{
+        font-size: 13px !important;
+    }
+}
