@@ -10,11 +10,11 @@ axios('https://fakestoreapi.com/products')
       <figure><img class="h-[300px]" src="${items.image}" alt="Shoes" /></figure>
       <div class="card-body">
         <h1 class="card-title text-[#588157] text-xl">Title : ${items.title} </h1>
-        <h3 class="card-title">Price : ${items.price} </h3>
-        <h3 class="card-title">Rating : ${items.rating.rate}</h3>
-        <h3 class="card-title"> Category  : ${items.category} </h3>
+        <h3 class="card-title text-black">Price : ${items.price} </h3>
+        <h3 class="card-title text-black">Rating : ${items.rating.rate}</h3>
+        <h3 class="card-title text-black"> Category  : ${items.category} </h3>
         <div class="card-actions justify-end">
-          <button class="btn btn-active">Add to Cart</button>
+          <button class="btn btn-active w-[150px]">Add to Cart</button>
         </div>
       </div>
     </div>`
