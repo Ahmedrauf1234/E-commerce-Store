@@ -9,13 +9,14 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="style1.css">
     <script src="https://kit.fontawesome.com/08826ccbb4.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </head>
 <body class="bg-[#e9ecef]">
+  <!-- =============================Navbar Start=========================>> -->
       <div class="navbar  bg-[#ccd5ae]">
-        <!-- =============================Navbar Start=========================>> -->
         <div class="navbar-start">
           <div class="dropdown">
-            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+            <div tabindex="0" role="button" class="btn btn-ghost text-black lg:hidden">
               <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
             </div>
             <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
@@ -24,7 +25,7 @@
               <li><a href="#contact">Contact Us</a></li>
             </ul>
           </div>
-          <h3 class=" logo-text ml-2 font-bold text-xl cursor-pointer"><a href="#">Trendy <span class="text-[#3a5a40]">Fashion</span> </a></h3>
+          <h3 class=" logo-text ml-2 font-bold text-xl cursor-pointer"><a href="index.html"><span class="text-[#2a2929]">Trendy</span> <span class="text-[#3a5a40]">Fashion</span> </a></h3>
         </div>
         <div class="navbar-center hidden lg:flex">
           <ul class="menu menu-horizontal text-base  px-1">
@@ -35,10 +36,10 @@
           </ul>
         </div>
         <div class="navbar-end">
-          <!-- <button class="border-2 border-solid w-[130px] p-3  btn-text">Checkout<span><i class="fa-solid fa-cart-shopping"></i></span> </button> -->
-          <button class="btn sm:btn-sm md:btn-md lg:btn-lg">Checkout <span><span><i class="fa-solid fa-cart-shopping"></i></span> </span> </button>
+          <button id="Check-btn" class="btn sm:btn-sm md:btn-md lg:btn-lg">Checkout <span><i class="fa-solid fa-cart-shopping"></i></span></button>
         </div>
       </div>
+      <!-- =================================navbar end========================= -->
       <!-- ============================Carusal work=========================>> -->
       <div class="carousel w-full">
         <div id="slide1" class="carousel-item relative w-full">
@@ -72,7 +73,7 @@
       </div>
       <!-- ===============================End=================================>> -->
       <!-- ==============================Cards Work Start========================= -->
-      <div id="render-div" class="flex  justify-center gap-3 flex-wrap items-center px-5  mt-5">
+      <div id="render-div" class="flex justify-center gap-3 flex-wrap items-center px-5  mt-5">
 
 <!--       
       <div class="card w-96 bg-gray-100 shadow-xl">

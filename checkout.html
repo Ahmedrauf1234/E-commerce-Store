@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html class="bg-[#e9ecef]" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout</title>
+    <link rel="shortcut icon" href="assests/favicon.avif" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.5.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style1.css">
+    <script src="https://kit.fontawesome.com/08826ccbb4.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<body>
+      <!-- =============================Navbar Start=========================>> -->
+      <div class="navbar  bg-[#ccd5ae]">
+        <div class="navbar-start">
+          <div class="dropdown">
+            <div tabindex="0" role="button" class="btn btn-ghost text-black lg:hidden">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+            </div>
+            <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+              <li><a href="index.html">Home</a></li>
+              <li> <a href="#about">About</a></li>
+              <li><a href="#contact">Contact Us</a></li>
+            </ul>
+          </div>
+          <h3 class=" logo-text ml-2 font-bold text-xl cursor-pointer"><a href="index.html"><span class="text-[#2a2929]">Trendy</span> <span class="text-[#3a5a40]">Fashion</span> </a></h3>
+        </div>
+        <div class="navbar-center hidden lg:flex">
+          <ul class="menu menu-horizontal text-base  px-1">
+            <li ><a href="index.html">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+
+          </ul>
+        </div>
+        <div class="navbar-end">
+          <button id="shopmore-btn" class="btn sm:btn-sm md:btn-md lg:btn-lg"> <span class="text-2xl"><i class="fa-solid fa-arrow-left"></i></span> Shop More </button>
+        </div>
+
+      </div>
+      <!-- =================================navbar end========================= -->
+      <!--=============================== Render div===================== -->
+      <div class="text-center mt-5">
+        <h1 class="text-5xl text-[#000000]">Cart</h1>
+      </div>
+     <div id="check-div" class="flex justify-center gap-3 flex-wrap items-center mt-5 px-5">
+       
+        <!-- <div class="card w-[400px] h-[600px] bg-white p-[5px]  shadow-xl">
+            <figure><img class="h-[300px]" src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" /></figure>
+            <div class="card-body">
+              <h1 class="card-title text-[#588157] text-xl">Title </h1>
+              <h3 class="card-title text-black">Price :  </h3>
+              <h3 class="card-title text-black">Rating : </h3>
+              <h3 class="card-title text-black"> Category  :  </h3>
+              <div>
+              <button class="btn">-</button>
+              <span class="text-lg">0</span>
+              <button class="btn">+</button>
+            </div>
+    
+              <div class="card-actions justify-end">
+               
+                <button onclick="" class="btn btn-active w-[150px]">Delete</button>
+              </div>
+            </div>
+          </div> -->
+        </div>
+        <!-- =================================Card End================= -->
+        <div  class=" m-auto mt-4 p-3 text-center">
+            <h1 class="text-4xl text-[#000000] font-bold">Total : <span id="total"></span></h1>
+        </div>
+   
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+      <script src="checkout.js"></script>
+</body>
+</html>
