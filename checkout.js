@@ -44,7 +44,7 @@ data.map(function(items , index){
             </div>
           </div>`
 })
-total.innerHTML = totalAmount
+total.innerHTML = Math.round(totalAmount) 
 }else{
    let  totalAmount = 0
         total.innerHTML = totalAmount
