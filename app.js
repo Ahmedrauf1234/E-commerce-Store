@@ -8,7 +8,7 @@ const btn = document.querySelector('#Check-btn')
 .then(function(res){
   // console.log(res.data);
     res.data.map(function(items , index ){
-      div.innerHTML +=`<div class="card w-[400px] h-[600px] bg-white p-[5px]  shadow-xl">
+      div.innerHTML +=`<div id='categories' class="card w-[400px] h-[600px] bg-white p-[5px]  shadow-xl">
       <figure><img class="h-[300px]" src="${items.image}" alt="Shoes" /></figure>
       <div class="card-body">
         <h1 class="card-title text-[#588157] text-xl">Title : ${items.title} </h1>

@@ -46,7 +46,7 @@ data.map(function(items , index){
 })
 total.innerHTML = Math.round(totalAmount) 
 }else{
-   let  totalAmount = 0
+        let  totalAmount = 0
         total.innerHTML = totalAmount
         div.innerHTML = '<h1 class="text-xl font-bold">Items Not Found...</h1>'
 }
